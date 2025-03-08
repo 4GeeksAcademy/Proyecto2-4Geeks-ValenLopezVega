@@ -12,6 +12,14 @@
 </head>
 
 <body>
+    <style>
+        .nav-pill .nav-link{
+            color: grey;
+        }
+        .nav-pill .nav-link.active{
+            color: blue;
+        }
+    </style>
     <!-- Navbar -->
     <nav class="navbar navbar-light bg-light py-3">
         <div class="container-fluid">
@@ -82,12 +90,14 @@
                 <a class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
                     role="tab" aria-controls="home" aria-selected="true"><i
                         class="fa-solid fa-table-cells"></i></a>
+
             </li>
             <li class="nav-item" role="presentation">
                 <a class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
                     role="tab" aria-controls="profile" aria-selected="false"><i class="fa-solid fa-square"></i></a>
             </li>
         </ul>
+
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active overflow-hidden" id="home" role="tabpanel" aria-labelledby="home-tab">
                 <div class="row">
@@ -109,12 +119,12 @@
             <!-- grid2 -->
             <div class="tab-pane fade overflow-hidden" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                 <div class="row my-4">
-                    <div class="col-6 mx-auto border rounded p-0">
+                    <div class="col-6 mx-auto border rounded p-0 d-inline-block w-auto">
                         <div class="d-flex p-2">
                             <div class="w-100 fs-4">My Crazy racoon Spark!</div>
                             <small class="align-bottom">08/26</small>
                         </div>
-                        <img style="object-fit: cover;" src="https://cdn-images.dzcdn.net/images/cover/26b75fa7f908f43c80c6ab3c19c020e0/0x1900-000000-80-0-0.jpg" class="img-fluid w-100 col-12" alt=""/>
+                        <img style=" height: 35vw; object-fit: contain;" src="https://cdn-images.dzcdn.net/images/cover/26b75fa7f908f43c80c6ab3c19c020e0/0x1900-000000-80-0-0.jpg" class="img-fluid w-100 col-12" alt=""/>
                         <div class="p-2">
                             <strong>5k Likes</strong>
                             <p>This is an example of a very good photo that you can post on instagram</p>
@@ -122,12 +132,12 @@
                     </div>
                 </div>
                 <div class="row my-4">
-                    <div class="col-6 mx-auto border rounded p-0">
+                    <div class="col-6 mx-auto border rounded p-0 d-inline-block w-auto">
                         <div class="d-flex p-2">
                             <div class="w-100 fs-4">The greatness of rats</div>
                             <small>04/09</small>
                         </div>
-                        <img style="object-fit: cover;" src="https://i.pinimg.com/474x/62/52/43/625243a1983a8f22a3d10ba4d8fc410d.jpg" class="img-fluid w-100 col-12" alt=""/>
+                        <img style="height: 35vw; object-fit: cover;" src="https://i.pinimg.com/474x/62/52/43/625243a1983a8f22a3d10ba4d8fc410d.jpg" class="img-fluid w-100 col-12" alt=""/>
                         <div class="p-2">
                             <strong>26k Likes</strong>
                             <p>This is an example of a very good photo that you can post on instagram</p>
@@ -135,12 +145,12 @@
                     </div>
                 </div>
                 <div class="row my-4">
-                    <div class="col-6 mx-auto border rounded p-0">
+                    <div class="col-6 mx-auto border rounded p-0 d-inline-block w-auto">
                         <div class="d-flex p-2">
                             <div class="w-100 fs-4">Amazing GOAL by Cristiano!</div>
                             <small>06/10</small>
                         </div>
-                        <img style="object-fit: cover;" src="https://i.pinimg.com/736x/72/aa/bc/72aabcb561d4496351db06b74de29b3d.jpg" class="img-fluid w-100 col-12" alt=""/>
+                        <img style="height: 35vw; object-fit: cover;" src="https://i.pinimg.com/736x/72/aa/bc/72aabcb561d4496351db06b74de29b3d.jpg" class="img-fluid w-100 col-12" alt=""/>
                         <div class="p-2">
                             <strong>2k Likes</strong>
                             <p>This is an example of a very good photo that you can post on instagram</p>
